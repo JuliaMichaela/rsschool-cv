@@ -2,7 +2,7 @@
 
 ## Contact Information
 
-- GitHub: JuliaMichaela
+- GitHub: [JuliaMichaela](https://github.com/JuliaMichaela)
 
 ## About Me
 
