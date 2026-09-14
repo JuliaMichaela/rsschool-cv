@@ -7,7 +7,100 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Julia Perekrestova</h1>
-    <p>Junior Web Developer</p>
+    <header>
+        <img class="profile-photo"
+            src="assets/photo.jpg"
+            alt="Julia Perekrestova">
+        <h1>Julia Perekrestova</h1>
+        <p>Junior Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I want to change my career and become a web developer.
+                My goal is to work remotely and continue developing my programming skills.
+            </p>
+        </section>
+
+        <div class="cv-grid">
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </section>
+            <section id="contacts">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>
+                        GitHub:
+                        <a href="https://github.com/JuliaMichaela" target="_blank">
+                            JuliaMichaela
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Code Example</h2>
+                <pre><code>function multiply(a, b) {
+                    return a * b;
+                }</code></pre>
+            </section>
+            
+            <section>
+                <h2>Experience</h2>
+                <p>I am currently studying web development at RS School.</p>
+                <p>Study project: CV - HTML, CSS, Git and GitHub.</p>
+            </section>
+            
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Rostov State Transport University — Engineering, Tribology</li>
+                    <li>RS School — Full-Stack JavaScript Course, 2026</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>English</h2>
+                <p>
+                    A2–B1 (Pre-Intermediate / Intermediate).
+                    I am improving my English through regular practice.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/JuliaMichaela" target="_blank">
+            GitHub
+        </a>
+    
+        <p>2026</p>
+    
+        <a href="https://rs.school/" target="_blank">
+            <img
+                src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/fullstack-engineering/tasks/cv/assets/rs-school-logo.svg"
+                alt="RS School logo"
+                width="100"
+            >
+        </a>
+    </footer>
 </body>
 </html>
